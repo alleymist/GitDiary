@@ -1,0 +1,50 @@
+<meta
+System Tweak
+照片和runtime broker
+相册\设置\关闭自动增强 关闭linked duplicated\
+
+
+关闭windows defender / windows defender smartscreen / onedrive
+gpedit.msc 计算机配置 管理模板 Windows组件
+	Antimalware：windows Defender防病毒程序 实时防护这一样
+	打开文件安全警告：用户管理模板，windows组件，附件管理器
+
+
+SuperFetch Prefetch
+服务 关闭即可
+
+
+WMI Provider
+关闭防火墙 
+服务 关闭 Windows Defender Firewalls
+
+
+state repository service
+
+
+
+Microsoft Compatibility Telemetry
+计划任务 Microsoft---Windows---Application Experience;
+控制面板\所有控制面板项\管理工具---任务计划程序---Microsoft---Windows---Application Experience栏目下 Microsoft Compatibility Telemetry 计划任务禁用即可。
+
+
+Office内存不足
+选项，信任，关闭来自网络的安全保护
+
+
+system32 -> Driver store 
+此处的驱动缓存和驱动备份都是可以删除的
+
+hiberlib.sys 禁用休眠 powercfg -h off
+
+精简winrar菜单栏（context-menu） winrar 选项设置综合。
+精简7-zip的CRC SHA 7-zip file manager选项设置7-Zip
+
+非英语unicode 乱码问题
+控制面板 区域，高级选项，非英语unicode
+
+Sublime 中文乱码问题
+
+触控板无法拖动
+设置>设备>触控板>允许双击之后拖动>>
+
